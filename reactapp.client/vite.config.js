@@ -43,7 +43,7 @@ export default defineConfig({
     },
     server: {
         proxy: {
-            '^/api/Trips/GetTrips': {
+            '^/api': {
                 target,
                 secure: false
             }
